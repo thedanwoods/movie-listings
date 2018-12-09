@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> component displays a spinner if loadStatus is "LOADING" 1`] = `
+"<Layout loadStatus=\\"LOADING\\" getMovies={[Function: mockConstructor]}>
+  <div className=\\"layout\\">
+    <div className=\\"layout--loading\\">
+      <Spinner name=\\"ball-beat\\" color=\\"#bbb\\" noFadeIn={false} fadeIn=\\"full\\" overrideSpinnerClassName=\\"\\" />
+    </div>
+  </div>
+</Layout>"
+`;
+
+exports[`<Layout /> component displays an error if loadStatus is "ERROR" 1`] = `
+"<Layout loadStatus=\\"ERROR\\" getMovies={[Function: mockConstructor]}>
+  <div className=\\"layout\\">
+    <div className=\\"layout__error\\">
+      Sorry, we couldn&#39;t retrieve the movie data. Please reload the page or check your connection.
+    </div>
+  </div>
+</Layout>"
+`;
+
+exports[`<Layout /> component renders without errors 1`] = `
+"<Layout loadStatus=\\"SUCCESS\\" getMovies={[Function: mockConstructor]}>
+  <div className=\\"layout\\">
+    <div className=\\"layout__sidebar\\">
+      <div className=\\"layout__sidebar-inner\\">
+        <Connect(GenreFilter) />
+        <Connect(RatingFilter) />
+      </div>
+    </div>
+    <Connect(Movies) />
+  </div>
+</Layout>"
+`;

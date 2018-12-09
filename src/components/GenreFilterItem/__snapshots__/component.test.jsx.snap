@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GenreFilterItem /> component renders without errors 1`] = `
+"<li className=\\"genre-filter-item\\">
+  <label className=\\"genre-filter-item__checkbox\\" htmlFor=\\"genre-filter-Action\\">
+    <input type=\\"checkbox\\" id=\\"genre-filter-Action\\" name=\\"Action\\" onChange={[Function: mockConstructor]} checked={false} />
+    <div className=\\"genre-filter-item__text\\">
+      Action
+    </div>
+  </label>
+</li>"
+`;

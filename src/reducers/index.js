@@ -1,6 +1,14 @@
 import { combineReducers } from 'redux';
-import tested from './testReducer';
+import movies from './moviesReducer';
+import genres from './genresReducer';
+import genreFilter from './genreFilterReducer';
+import ratingFilter from './ratingFilterReducer';
+import fetchStatus from './fetchStatusReducer';
 
 export default combineReducers({
-  tested,
+  movies,
+  genres,
+  genreFilter,
+  ratingFilter,
+  fetchStatus,
 });

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GenreFilter /> component renders without errors 1`] = `
+"<div className=\\"genre-filter\\">
+  <h2 className=\\"genre-filter__heading\\">
+    Genres
+  </h2>
+  <ul>
+    <Connect(GenreFilterItem) genre={{...}} />
+    <Connect(GenreFilterItem) genre={{...}} />
+  </ul>
+</div>"
+`;

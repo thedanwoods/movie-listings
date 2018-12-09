@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RatingFilter /> component renders without errors 1`] = `
+"<div className=\\"rating-filter\\">
+  <h2 className=\\"rating-filter__heading\\">
+    Minimum rating
+  </h2>
+  <select id=\\"rating-filter-dropdown\\" className=\\"rating-filter__select\\" value={5.5} name=\\"rating\\" onChange={[Function: onChange]}>
+    <option className=\\"rating-filter__option\\" value={0}>
+      0
+    </option>
+    <option className=\\"rating-filter__option\\" value={0.5}>
+      ½
+    </option>
+    <option className=\\"rating-filter__option\\" value={1}>
+      1
+    </option>
+    <option className=\\"rating-filter__option\\" value={1.5}>
+      1½
+    </option>
+    <option className=\\"rating-filter__option\\" value={2}>
+      2
+    </option>
+    <option className=\\"rating-filter__option\\" value={2.5}>
+      2½
+    </option>
+    <option className=\\"rating-filter__option\\" value={3}>
+      3
+    </option>
+    <option className=\\"rating-filter__option\\" value={3.5}>
+      3½
+    </option>
+    <option className=\\"rating-filter__option\\" value={4}>
+      4
+    </option>
+    <option className=\\"rating-filter__option\\" value={4.5}>
+      4½
+    </option>
+    <option className=\\"rating-filter__option\\" value={5}>
+      5
+    </option>
+    <option className=\\"rating-filter__option\\" value={5.5}>
+      5½
+    </option>
+    <option className=\\"rating-filter__option\\" value={6}>
+      6
+    </option>
+    <option className=\\"rating-filter__option\\" value={6.5}>
+      6½
+    </option>
+    <option className=\\"rating-filter__option\\" value={7}>
+      7
+    </option>
+    <option className=\\"rating-filter__option\\" value={7.5}>
+      7½
+    </option>
+    <option className=\\"rating-filter__option\\" value={8}>
+      8
+    </option>
+    <option className=\\"rating-filter__option\\" value={8.5}>
+      8½
+    </option>
+    <option className=\\"rating-filter__option\\" value={9}>
+      9
+    </option>
+    <option className=\\"rating-filter__option\\" value={9.5}>
+      9½
+    </option>
+    <option className=\\"rating-filter__option\\" value={10}>
+      10
+    </option>
+  </select>
+</div>"
+`;

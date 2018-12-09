@@ -1,0 +1,35 @@
+.genre-filter-item {
+  list-style-type: none;
+  padding: 2px;
+  margin: 0;
+}
+
+.genre-filter-item__checkbox input[type='checkbox'] {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+.genre-filter-item__text {
+  background-color: #2a1a1f;
+  padding: 4px;
+  box-sizing: content-box;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  cursor: pointer;
+  &:hover {
+    background-color: #3a242b
+  }
+}
+
+input[type=checkbox]:checked ~ .genre-filter-item__text {
+  background: #ad8350;
+}
+
+input[type=checkbox]:focus ~ .genre-filter-item__text, 
+input[type=checkbox]:active ~ .genre-filter-item__text {
+  padding: 3px;
+  border: .5px dotted #fff;
+}

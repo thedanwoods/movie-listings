@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MovieCard /> component renders without errors 1`] = `
+"<div className=\\"movie-card\\">
+  <div className=\\"movie-card__poster-container\\">
+    <img className=\\"movie-card__poster\\" src=\\"https://image.tmdb.org/t/p/w500/abc\\" alt=\\"Mock title poster\\" />
+  </div>
+  <section className=\\"movie-card__info\\">
+    <h1 className=\\"movie-card__title\\">
+      Mock title
+    </h1>
+    <p className=\\"movie-card__genres\\">
+      [object Object]
+    </p>
+  </section>
+</div>"
+`;

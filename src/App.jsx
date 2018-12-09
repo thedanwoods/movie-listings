@@ -1,17 +1,14 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import createStore from './store';
+import createStore from './utils/createStore';
+import Layout from './components/Layout';
 import './App.css';
-import Template from './components/template';
 
 const store = createStore();
 
 const App = () => (
   <Provider store={store}>
-    <div className="App">
-      Hello world
-      <Template />
-    </div>
+    <Layout />
   </Provider>
 );
 

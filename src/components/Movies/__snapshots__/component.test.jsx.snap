@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Movies /> component displays none found message if empty movies array supplied 1`] = `
+"<Fragment>
+  <div className=\\"movies__none\\">
+    No matching movies found.
+  </div>
+</Fragment>"
+`;
+
+exports[`<Movies /> component renders without errors 1`] = `
+"<Fragment>
+  <Connect(MovieCard) movie={{...}} />
+  <Connect(MovieCard) movie={{...}} />
+  <Connect(MovieCard) movie={{...}} />
+</Fragment>"
+`;
