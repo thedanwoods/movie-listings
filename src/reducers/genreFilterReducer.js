@@ -3,13 +3,9 @@ import initialState from './initialState';
 const genreFilterReducer = (state = initialState.genreFilter, action = {}) => {
   switch (action.type) {
     case 'CHECKBOX_CLICKED': {
-      let newState;
-      if (state.includes(action.id)) {
-        newState = state.filter(item => item !== action.id);
-      } else {
-        newState = [...state, action.id];
-      }
-      return newState;
+      return state.includes(action.id)
+        ? state.filter(item => item !== action.id)
+        : [...state, action.id];
     }
     default:
       return state;
