@@ -9,9 +9,9 @@ or see the live version at https://thedanwoods.github.io/movie-listings
 
 ## Description
 
-This shows current movies from the TMDb API, and allows the user to filter by genre and rating.
+This was originally written for a coding challenge. It shows current movies from the TMDb API, and allows the user to filter by genre and rating.
 
-It's build as an idiomatic React-Redux single page app.
+It's built as an idiomatic React-Redux single page app.
 
 ### Limitiations
 
